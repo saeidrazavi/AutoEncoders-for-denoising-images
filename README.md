@@ -94,13 +94,13 @@ if we plot one image for each digit and visualize the initial images, their corr
 
 we expect that, if we train good neural network model, each digit, cover individual area and we reach segmented 2D space without interference.
 
-#### PCA method : 
+#### PCA method 
 
 ![4](https://user-images.githubusercontent.com/67091916/219193089-6083eb8d-2ba8-4e0f-94b4-f0ca81d6b698.png)
 
-#### TSNE method : 
+#### TSNE method 
 
 ![5](https://user-images.githubusercontent.com/67091916/219193054-dc0cb7a6-3fb1-47cc-8a8d-350896204630.png)
 
- ### Conclustion : 
+ ### Conclustion 
  In this problem, TSNE is more powerful in transforming our latent vectors into 2d space.  as we can see above, we have segmented space in TSNE but for PCA, it's not very clear and separated
