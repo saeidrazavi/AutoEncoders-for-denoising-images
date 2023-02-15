@@ -82,6 +82,8 @@ The key idea behind AutoEncoder is to use to basic transforms. `nn.linear` and `
 
 ```
 
-if we plor one image for each digit and visualize the initial images, their corresponding noisy images and decoded images we have: 
+if we plot one image for each digit and visualize the initial images, their corresponding noisy images and decoded images we have: 
 
+![2](https://user-images.githubusercontent.com/67091916/219180310-a22de70c-e405-45cf-8ff5-de7e8769ab58.png)
 
+### latent vectors for 10 random digits  
