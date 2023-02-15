@@ -6,7 +6,7 @@ AutoEncoder is an unsupervised learning Algorithm used typically for dimensional
 
 ![1](https://user-images.githubusercontent.com/67091916/219174340-547b4992-4f7b-45cd-8b04-9ba82c5a9778.PNG)
 
-in this repo, we use images of mnist dataset, add guassian noise to them at first, and then make a nerual network using pythorh, to denoise the noisy images 
+in this repo, we use images of mnist dataset, add guassian noise to them at first, and then make a neural network using pythorh, to denoise the noisy images 
 
 ### how to add noise to images? 
 
@@ -36,7 +36,7 @@ noisy_data = datasets.MNIST(
 ```
 
 ### build an AutoEncoder using pythorch 
-The key idea behind AutoEncoder is to use to basic transforms. `nn.linear` and `nn.Relu` untill we reach  the latent vector. after that we again use these two transforms to reach reconstructed form of original image.
+The key idea behind AutoEncoder is to use to basic transforms. `nn.linear` and `nn.Relu` until we reach  the latent vector. after that we again use these two transforms to reach reconstructed form of original image.
 
 - Implementation
 ```python
@@ -102,5 +102,5 @@ we expect that, if we train good neural network model, each digit, cover individ
 
 ![5](https://user-images.githubusercontent.com/67091916/219193054-dc0cb7a6-3fb1-47cc-8a8d-350896204630.png)
 
- ### Conclustion 
+ ### Conclusion 
  In this problem, TSNE is more powerful in transforming our latent vectors into 2d space.  as we can see above, we have segmented space in TSNE but for PCA, it's not very clear and separated
