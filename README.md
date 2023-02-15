@@ -87,3 +87,12 @@ if we plot one image for each digit and visualize the initial images, their corr
 ![2](https://user-images.githubusercontent.com/67091916/219180310-a22de70c-e405-45cf-8ff5-de7e8769ab58.png)
 
 ### latent vectors for 10 random digits  
+
+![3](https://user-images.githubusercontent.com/67091916/219181957-e39ac79a-6c86-4abd-adb2-64bd5cec0ae0.png)
+
+### using dimensionality reduction methods(PCA and TSNE) to visualize latent vectors in 2D space
+
+we expect that, if we train good neural network model, each digit, cover individual area and we reach segmented 2D space without interference.
+
+#### PCA method : 
+
